@@ -1,0 +1,84 @@
+/* Common css */
+.container{
+	
+}
+.text-justify{
+	text-align: justify;
+}
+.text-center{
+	text-align: center;
+}
+.white{
+	color: white;
+}
+.ft-16{
+	font-size: 16px;
+}
+.copyright{
+	padding: 20px 0;
+}
+
+
+
+/* Home css */
+.row{
+	margin-left: 0;
+}
+.pad-0{
+	padding: 0;
+}
+.thumbnails,ul,ul li:nth-child(1){
+	margin: 0;
+}
+ul.thumbnails > li{
+	float: left;
+}
+ul.thumbnails > li > div{
+	min-height: 550px;
+}
+
+ul.thumbnails > li > ul{
+	margin: 0;
+}
+ul.thumbnails li ul li:nth-child(2){
+	margin-top: 15px;
+}
+ul.thumbnails li ul li b{
+	margin-bottom: 5px;
+	margin-top: 5px;
+	display: block;
+}
+img.thumbnails{
+	height: 240px;
+}
+
+
+
+
+
+/* Product CSS */
+.c-product-showcase{
+	margin-bottom: 0;
+}
+.c-product-showcase h2{
+	margin-top: 0;
+	padding-top: 10px;
+}
+.c-product-showcase > div{
+	padding: 0 10px;
+	padding-bottom: 20px;
+}
+.c-product-showcase p{
+	text-align: justify;
+	padding: 10px 0;
+	color: #444;
+}
+.c-product-showcase > div:nth-child(odd){
+	background-color: #f5f5f5;
+}
+.c-product-showcase > div:nth-child(even){
+	background-color: #e5e5e5;
+}
+.img-square{
+	
+}
