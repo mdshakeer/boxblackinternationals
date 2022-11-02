@@ -2,8 +2,6 @@
 <html>
   <head>
     <title>Box Black Internationals</title>
-    <%= csrf_meta_tags %>
-    <%= csp_meta_tag %>
 
   <meta name="description" content="">
   <meta name="author" content="">
@@ -27,16 +25,13 @@
   <![endif]-->
 
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
-
-    <%= stylesheet_link_tag    'application', media: 'all' %>
-    <%= javascript_include_tag 'application' %>
   </head>
 
   <body>
     <div class="navbar navbar navbar-fixed-top">
       <div class="navbar-inner">
         <div class="container-fluid">
-          <a href="/index.html" class="brand active"><img width="150px" height="70px" src="/img/custom/home-logo.png" alt="Service Home" class="img-rounded"></a>
+          <a href="/index.html" class="brand active"><img width="150px" height="70px" src="home-logo.png" alt="Service Home" class="img-rounded"></a>
         
           <a data-toggle="collapse" data-target=".nav-collapse" class="btn btn-navbar">
             <span class="icon-bar"></span>
@@ -46,7 +41,7 @@
         
           <div class="collapse nav-collapse">         
             <ul class="nav pull-right" style="padding-top:20px">
-              <li class="hover"><a href="/index.html" style="color:#000;font-weight: bold"><i class="icon-home"></i>&nbsp;Home</a></li>
+              <li class="hover"><a href="/" style="color:#000;font-weight: bold"><i class="icon-home"></i>&nbsp;Home</a></li>
               <li><a href="products.html" style="color:#000;font-weight: bold"><i class="icon-th-list"></i>&nbsp;Services</a></li>
               <li><a href="about.html" style="color:#000;font-weight: bold"><i class="icon-info-sign"></i>&nbsp;About Us</a></li>
               <!-- <li data-toggle="modal" data-target="#modal-contact-form"><a href="" style="color:#000;font-weight: bold">
