@@ -417,14 +417,6 @@
                 <div class="all-title pt-0">
                     CONTACT US
                 </div>
-                <%= form_with url: "/contact_us", method: :post, :class => "contact_us" do |form| %>
-                    <!-- <label for="fname ">Full Name</label> -->
-                    <input id="fname" name="contact[firstname]" placeholder="Your name.." type="text" required>
-                    <!-- <label for="lname ">Email Address </label> -->
-                    <input id="lname" name="contact[lastname]" placeholder="Your Email Address.." type="email" required>
-                    <!-- <label for="subject ">Your Message</label> -->
-                    <textarea id="subject" name="contact[subject]" placeholder="Your Message" style="height:120px" required></textarea> <input type="submit" value="Submit ">
-                <% end %>
             </div>
             <div class="col-sm-1"></div>
             <div class="col-sm-5 col">
@@ -476,28 +468,6 @@
                 <h5 class="modal-title">Get the Brochure</h5>
                 <button type="button" class="close" data-dismiss="modal">&times;</button>
             </div>
-            <%= form_with url: "/download_brochure", method: :post, :class => "brochure-form", data: { remote: false }, :html => { :onsubmit => "validate_download()" } do |form| %>
-
-                <!-- Modal body -->
-                <div class="modal-body text-center">
-                    <img src="Newsletter.svg" width="250px" class="mb-3">
-                    <p>We promise you that we neither </br> <strong>spam nor sell your Email ID.</strong></p>
-
-                        <div class="form-group">
-                            <input type="email" class="form-control email" placeholder="Enter email" id="email" name="email" required>
-                        </div>
-                </div>
-
-                <!-- Modal footer -->
-                <div class="modal-footer justify-center">
-                    <!-- <a href="#">
-                        <input type="submit" class="btn btn-primary brochure-form-submit" value="Submit" />
-                    </a> -->
-                    <a download class="">
-                        <button type="submit" class="btn btn-primary">Submit</button>
-                    </a>
-                </div>
-            <% end %>
         </div>
     </div>
 </div>
